@@ -1,0 +1,45 @@
+/* Footer styles */
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #282c34;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
