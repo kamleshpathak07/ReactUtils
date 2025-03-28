@@ -11,6 +11,7 @@ export default function About() {
         </li>
         <li>4. Single page application development. </li>
         <li>5. Server side rendering and SEO Freindly application.</li>
+        <li>6. Stateful compnent design.</li>
       </ul>
     </>
   );
