@@ -32,6 +32,12 @@ export default function StopWatch() {
   //setCounter(refCounter.current);
   //console.log(refCounter.current);
   // }, [counter]);
+  useEffect(() => {
+    return () => {
+      console.log("StopWatch Component Unmounted");
+      clearInterval(refIntervalTimer.current);
+    };
+  }, []);
   return (
     <div className="stopwatch-sec-cls">
       <div className="ref-cls-comp">
@@ -43,7 +49,9 @@ export default function StopWatch() {
         </button>
       </div>
       <div className="stop-cls-sec">
-        <p>Your CountDown Start : {stopCounter}</p>
+        <p>
+          Your CountDown Start : <span>{stopCounter}</span>
+        </p>
         <button className="button btn-primary" onClick={startTimer}>
           Start CountDown
         </button>

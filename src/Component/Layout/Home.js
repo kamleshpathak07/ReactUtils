@@ -18,7 +18,7 @@ export default function Home() {
           React Official Website
         </a>
       </div>
-      <div class name="home-cls-sec">
+      <div className="home-cls-sec">
         <a href="https://react.dev/docs" target="_blank">
           React Documentation
         </a>

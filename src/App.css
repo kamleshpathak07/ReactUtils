@@ -38,7 +38,8 @@
 }
 
 /* App.js or global CSS */
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -53,10 +54,11 @@ body, html {
 }
 
 footer {
-  margin-top: auto;  
+  margin-top: auto;
 }
 /* App.js or global CSS */
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -64,7 +66,6 @@ body, html {
   flex-direction: column;
   min-height: 100vh; /* Ensures the page is at least 100vh tall */
 }
-
 
 /*------------------------ 404 Not Found Page ---------------------------------*/
 
@@ -365,5 +366,31 @@ body, html {
   }
 }
 
-
 /*----------------------------- END -------------------------------------------*/
+.not-found-cls img {
+  padding-left: 240px;
+  width: 80%;
+  height: 50%;
+}
+.not-found-cls h2 {
+  padding-left: 300px;
+  padding-top: 13px;
+  font-weight: 500;
+  color: green;
+  font-style: italic;
+}
+.not-found-cls p {
+  padding-left: 300px;
+  font-weight: bolder;
+  font-family: fangsong;
+  text-align: justify;
+}
+.not-found-cls p a {
+  text-decoration: underline;
+  color: chocolate;
+}
+
+.stop-cls-sec p span {
+  font-weight: 400;
+  font-size: 50px;
+}

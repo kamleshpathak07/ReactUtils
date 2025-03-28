@@ -9,11 +9,18 @@ export default function TextUtil() {
     let input = inputtext;
     setInputtext(input.toUpperCase());
   };
+  const handleLowerCase = () => {
+    let input = inputtext;
+    setInputtext(input.toLowerCase());
+  };
   return (
     <div className="text-util-cls">
       <input className="from-control" value={inputtext} onInput={handleInput} />
       <button className="btn btn-primary" onClick={handleUpperCase}>
         UpperCase
+      </button>
+      <button className="btn btn-primary" onClick={handleLowerCase}>
+        LowerCase
       </button>
       <p>
         Preview : <span>{inputtext}</span>

@@ -9,6 +9,8 @@ export default function About() {
           3. React Utils handle some basic utility e.g. Hooks, UI chnages, State
           Management, Prop Drilling, DOM Chnages etc.
         </li>
+        <li>4. Single page application development. </li>
+        <li>5. Server side rendering and SEO Freindly application.</li>
       </ul>
     </>
   );
