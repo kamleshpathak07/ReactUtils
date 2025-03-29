@@ -13,6 +13,7 @@ export default function About() {
         <li>5. Server side rendering and SEO Freindly application.</li>
         <li>6. Stateful compnent design.</li>
         <li>7. Stateless compnent design.</li>
+        <li>8. Adding new feature using React.js like web page handling, Server Side Handling, SEO Handling.</li>
       </ul>
     </>
   );
