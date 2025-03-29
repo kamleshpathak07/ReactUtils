@@ -8,6 +8,7 @@ export default function PrivacyPolicy() {
         document contains types of information that is collected and recorded by
         React-Utils and how we use it.
       </p>
+      <p> Adding some extra feature into ReactUtils project.</p>
     </>
   );
 }
